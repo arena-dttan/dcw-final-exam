@@ -1,0 +1,50 @@
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 70px 250px;
+    text-align: center;
+}
+
+#button {
+    background: rgb(58, 57, 57);
+    color: white;
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    text-indent: 0px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: color 0.5s, background 0.5s;
+    text-align: center;
+}
+
+#button:hover {
+    background: rgb(21, 139, 175);
+}
+
+#container {
+    background: white;
+    color: black;
+}
+
+#header-1 {
+    font-size: 36px;
+    padding: 20px;
+    line-height: 45px;
+    text-align: center;
+}
+
+#header-2 {
+    font-size: 36px;
+    padding: 20px;
+    line-height: 45px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}

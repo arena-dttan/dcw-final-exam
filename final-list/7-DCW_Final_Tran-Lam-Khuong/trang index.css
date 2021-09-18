@@ -1,0 +1,17 @@
+body {
+    background-image: url(./pictures/bg.png);
+}
+
+#left-main-box {
+    background: none;
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+#right-main-box {
+    background: none;
+    width: 60%;
+    float: right;
+    padding: 10px;
+}

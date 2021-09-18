@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+}
+.nen{
+    background-image: url("~/hinh-anh/bg.png");
+    height: 1300px;
+    background-repeat: no-repeat;
+}
+.logo{
+    width: 40%;
+    height: 40px;
+    float: left;
+}
+.logo img{
+    margin-top: 20px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1rem;
+    flex-flow: row wrap;
+    padding: 50px;
+}
+.menu{
+    width: 60%;
+    float: left;
+}
+
+.content{
+    padding: 50px;
+    margin-top: 20px;
+}
+.content .left{
+    width: 50%;
+}
+.content .right{
+    width: 50%;
+}
+.f-grid-col {
+    flex: -1 0;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+/*gioi-thieu*/
+.gioithieu{
+    background-color: white;
+    height: 600px;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid blue;
+    overflow: auto;
+}
+.gioithieu .left{
+    width: 50%;
+    float: left;
+}
+.gioithieu .right{
+    width: 50%;
+    float: right;
+}
+/*Dao-tao*/
+.daotao{
+    background-color: white;
+    height: 600px;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid blue;
+    padding: 30px;
+}
+.tuyensinh{
+    background-color: white;
+    height: 600px;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid blue;
+    overflow: auto;
+    padding: 30px;
+}
+/*tuyen-sinh*/
+.tuyensinh ul{
+    list-style-type: none;
+}
+.tuyensinh li{
+    float: left;
+    margin-left:200px;
+}
+/*gallery*/
+.gallery{
+    background-color: white;
+    height: 600px;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid blue;
+    overflow: auto;
+    padding: 30px;
+}
+.gallery ul{
+    list-style-type: none;
+}
+.gallery li{
+    float: left;
+    width: 33.33333333333333%;
+}
+.gallery img{
+    width: 450px; 
+    height: 300px;
+}
+/*tin-tuc*/
+.tintuc{
+    background-color: white;
+    height: 600px;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid blue;
+    overflow: auto;
+    padding: 30px;
+}
+.tintuc ul{
+    list-style-type: none;
+}
+.tintuc li{
+    float: left;
+    width: 33.33333333333333%;
+}
+.tintuc img{
+    width: 450px; 
+    height: 300px;
+}

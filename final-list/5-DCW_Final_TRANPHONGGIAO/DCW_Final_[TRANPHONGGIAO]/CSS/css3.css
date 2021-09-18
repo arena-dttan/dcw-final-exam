@@ -1,0 +1,47 @@
+body {
+    background: red;
+}
+
+#container {
+    background: gray;
+    min-height: 600px;
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+}
+
+#header {
+    background: greenyellow;
+    height: 150px;
+}
+
+#main-menu {
+    background: blue;
+    height: 40px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+#main-content {
+    background: coral;
+    min-height: 300px;
+}
+
+#footer {
+    background: cyan;
+    height: 80px;
+}
+
+#left-header {
+    background: darkmagenta;
+    width: 45.5%;
+    float: left;
+    height: 100%;
+}
+
+#right-header {
+    background: darkorange;
+    width: 45.5%;
+    float: right;
+    height: 100%;
+}

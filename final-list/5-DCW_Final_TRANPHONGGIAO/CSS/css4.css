@@ -1,0 +1,47 @@
+body {
+    background: red;
+}
+
+#container {
+    background: gray;
+    min-height: 600px;
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+}
+
+#header {
+    background: greenyellow;
+    height: 150px;
+}
+
+#main-menu {
+    background: blue;
+    height: 40px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+#main-content {
+    background: coral;
+    min-height: 300px;
+}
+
+#footer {
+    background: cyan;
+    height: 80px;
+}
+
+#left-content {
+    background: rgb(194, 235, 203);
+    width: 45.5%;
+    float: left;
+    height: 100%;
+}
+
+#right-content {
+    background: rgb(81, 255, 0);
+    width: 45.5%;
+    float: right;
+    height: 100%;
+}

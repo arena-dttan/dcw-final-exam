@@ -1,0 +1,232 @@
+body {
+    background: url("../DCW-Final-Images/bg.png");
+}
+
+section {
+    height: 100vh;
+    background-image: url('/DCW-Final-Images/bg.png');
+}
+
+.menu-header {
+    display: flex;
+    height: 10%;
+    padding: 40px 40px;
+    justify-content: space-between;
+}
+
+.menu-header img {
+    width: 350px;
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu div {
+    padding: 20px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: #fff solid 1px;
+    height: 20px;
+}
+
+.menu div a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu div:first-child {
+    border: none;
+}
+
+.head-text {
+    margin: 30px 40px;
+}
+
+.head-text div {
+    background-color: yellow;
+    padding: 20px;
+    width: 10%;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.head-text div a {
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+}
+
+.gioi-thieu {
+    display: flex;
+    justify-content: center;
+    padding: 0 15%;
+}
+
+.gioi-thieu-div {
+    background-color: #fff;
+    width: 100%;
+    /* height: 80vh; */
+    border-radius: 20px;
+}
+
+.gioi-thieu-title h1 {
+    text-align: center;
+    color: yellow;
+}
+
+.gioi-thieu-1 {
+    padding: 20px;
+}
+
+.gioi-thieu-1 img {
+    width: 300px
+}
+
+.gioi-thieu-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gioi-thieu-1 div {
+    width: 500px;
+    text-align: justify;
+}
+
+.gioi-thieu-2 {
+    padding: 20px;
+    display: flex;
+}
+
+.gioi-thieu-2 div {
+    width: 440px;
+}
+
+.gioi-thieu-2 div p:first-child {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.gioi-thieu-2 img {
+    width: 500px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.title {
+    text-align: center;
+}
+
+.subject-title {
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gioi-thieu-div div {
+    padding: 20px;
+}
+
+.dao-tao-content {
+    text-align: justify;
+}
+
+.gioi-thieu-div div:last-child {
+    padding: 0px
+}
+
+.gioi-thieu-div div:nth-last-child(2) {
+    padding: 0;
+    padding-left: 20px;
+}
+
+.tuyen-sinh-title {
+    color: yellow;
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.tuyen-sinh-content {
+    display: flex;
+    height: 60vh;
+}
+
+.tuyen-sinh-content div {
+    width: 20%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.tuyen-sinh-content div p:first-child {
+    text-align: center;
+}
+
+.tuyen-sinh-div {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.tuyen-sinh {
+    display: flex;
+    justify-content: center;
+    padding: 0 15%;
+}
+
+.gallery-div {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.gallery-title {
+    color: yellow;
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.gallery-content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.gallery-content div {
+    width: 28%;
+    padding: 0 2.5%;
+}
+
+.gallery-content div img {
+    width: 320px
+}
+
+.date-time {
+    text-align: right;
+}
+
+.content-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-content {
+    text-align: justify;
+}

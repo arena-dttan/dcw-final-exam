@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menu 2</title>
+
+    <link rel="stylesheet" href="./css/menu-2.css">
+<style>
+div.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+</style>
+</head>
+
+<body>
+    <div class="fixed">
+    <div id="menu">
+        <ul>
+            <li>
+                <a href="#"> Giới thiệu</a>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-btn"> Đào tạo - Tuyển sinh</a>
+                <div class="dropdown-content">
+                    <a href="#">Đào tạo</a>
+                    <a href="#">Tuyển sinh</a>
+                </div>
+            </li>
+            <li>
+                <a href="#"> Gallery</a>
+            </li>
+            <li>
+                <a href="#"> Tin tức - Sự kiện</a>
+            </li>
+            <li>
+                <a href="#"> Liên thông - Việc làm</a>
+            </li>
+            <li>
+                <a href="#">Liên hệ</a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

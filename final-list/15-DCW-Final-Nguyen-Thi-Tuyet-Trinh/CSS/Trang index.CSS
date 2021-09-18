@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    margin: 50px;
+    background:url("../IMAGE/bg.png")
+}
+
+#container {
+    min-height: 600px;
+    width: 100%;
+    padding: 0px;
+}
+
+#main-box {
+    /* background: coral; */
+    min-height: 200px;
+}
+
+#footer-box {
+    /* background: cyan; */
+    min-height: 90px;
+    padding: 20px;
+    text-align: left;
+}
+
+#left-main-box {
+    /* background: red; */
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+#right-main-box {
+    /* background: blue; */
+    width: 60,5%;
+    float: right;
+    padding: 10px;
+}
+
+.max-height {
+    height: 300px;
+}
+
+.box {
+    box-sizing: border-box;
+}
+
+/* menu */
+#menu {
+    /* background: gray; */
+    height: 400px;
+    display: inline-block;
+}
+/* Sử dụng cho menu */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #F8C800;
+}
+
+li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+li.dropdown {
+    display: inline-block;
+    width: 180px;
+}
+
+li a:hover,
+.dropdown:hover {
+    background: red;
+}
+
+li a,
+.dropdown-btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #F8C800;
+    width: 180px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* link */
+
+#link{
+    min-height: 45px;
+    padding: 15px 20px;
+    background-color: goldenrod;
+    border-radius: 40px;
+    color:white;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 15px;
+    width: 150px;
+    margin: 20px;
+}
+
+#left-main-box{
+    width:400px;
+    height:auto;
+}

@@ -1,0 +1,54 @@
+body {
+    background: red;
+}
+
+#container {
+    background: red;
+    min-height: 600px;
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+}
+
+#header {
+    background: cyan;
+    height: 150px;
+}
+
+#main-menu {
+    background: yellow;
+    height: 40px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+#main-content {
+    background: coral;
+    min-height: 300px;
+}
+
+#footer {
+    background: cyan;
+    height: 80px;
+}
+
+#left-content {
+    background: red;
+    width: 38.1%;
+    float: left;
+    height: 100%;
+}
+
+#mid-content {
+    background: green;
+    width: 38.1%;
+    float: left;
+    height: 100%;
+}
+
+#right-content {
+    background: blue;
+    width: 38.1%;
+    float: right;
+    height: 100%;
+}

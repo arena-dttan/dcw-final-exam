@@ -1,0 +1,48 @@
+body {
+    background-image: url(./pictures/bg.png);
+}
+
+#container {
+    background:none;
+    min-height: 800px;
+    width: 100%;
+    padding: 0px;
+}
+
+#header {
+    background: none;
+    height: 150px;
+    border: none;
+}
+
+#main-menu {
+    background:white; 
+    height: 50px;
+    box-sizing: border-box;
+    opacity: 70%;
+}
+
+#main-content {
+    background:white;
+    min-height: 400px;
+    opacity: 70%;
+}
+
+
+#left-header {
+    background:none;
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+
+#right-header {
+    background: none;
+    width: 55%;
+    float: right;
+    height: 100%;
+    font-size: 12px;
+}
+#h2 {font-size: 25px;
+    color: gold;        
+}

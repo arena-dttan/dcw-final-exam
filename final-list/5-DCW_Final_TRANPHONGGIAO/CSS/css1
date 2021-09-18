@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="utf-8">
+     <title>HTML Lists</title>
+
+     <style>
+        body {
+            font-size: 18px;
+            background-color: black;
+            color: white;
+        }
+
+        .common {
+            padding: 5px;
+        }
+
+        #main-box-1 {
+            background: turquoise; 
+            color: red;
+        }
+        #main-box-2 {
+            background: tomato;
+            color: yellow;
+        }
+     
+      </style>
+</head>
+
+<body>
+    <div id="main-box-1" class="common">
+      <h2>Danh sách HTML không thứ tự (UL) </h2>
+      <ul>
+         <li>HTML</li>
+         <li>CSS</li>
+         <li>JavaScript</li>
+      </ul>
+    </div>
+    <div>
+
+    </div>
+    <div id="main-box-2" class="common">
+       <h2>Danh sách HTML không thứ tự (UL) </h2>
+       <ol>
+           <li>HTML</li>
+           <li>CSS</li>
+           <li>JavaScript</li>
+       </ol>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+ 

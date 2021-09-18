@@ -1,0 +1,100 @@
+body {background-image: url(../Media/background.png);
+    background-size: cover;
+    box-sizing: border-box;
+    border: darkgray;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: right;
+    color: white;
+    padding: 50px;
+    margin: 50px;
+}
+#logo {width: 235px; height: 49px; background-color: none; float: left}
+
+#imgo {width: 100%; height: 100%; padding: 5px; box-sizing: border-box; margin: 5px; float: left}
+
+
+#menu {
+    /* background: gray; */
+    /* width: 960px; */
+    display: inline-block;
+}
+
+
+/* Sử dụng cho menu */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #F8C800;
+}
+
+li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+li.dropdown {
+    display: inline-block;
+    width: 180px;
+}
+
+li a:hover,
+.dropdown:hover {
+    background: red;
+}
+
+li a,
+.dropdown-btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #F8C800;
+    width: 180px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#cot1 {width:47%;height: 350px; background-color:NONE;float:left;padding: 2px;
+	margin:2px;
+	box-sizing: border-box}
+#cot1content { width:100%;height:200px; background-color:none;padding:1px;float:left; font-size: 14px;text-align:left }
+#cot2 {width:47%;height: 350px; background-color:none;float:right;padding:2px}
+#contentcot2 { width:100%;height:200px; background-color:none;padding:1px;float:left; font-size: 14px;text-align:left }
+#img2 {padding:10px;float: left;align-items: left}
+
+#content{width: 900px;
+	height: 500px; 
+	border-radius: 4em;
+	background-color:yellow;
+	text-align: center;
+	margin: auto;
+	padding: 2px;
+	box-sizing: border-box
+}

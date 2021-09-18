@@ -1,0 +1,42 @@
+body {
+    background: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+#container {
+    background: hotpink;
+    height: 100%;
+}
+
+#header-box {
+    background: red;
+    height: 100px;
+}
+
+#main-menu-box {
+    background: green;
+    height: 40px;
+}
+
+#main-content-box {
+    background: blue;
+    min-height: 300px;
+}
+
+#footer {
+    background: chartreuse;
+    height: 60px;
+}
+
+#left-header {
+    background: cyan;
+    height: 100%;
+    float: left;
+}
+
+#right-header {
+    background: lightslategray;
+    height: 100%;
+    float: right;
+}

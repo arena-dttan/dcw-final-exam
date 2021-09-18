@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menu 2</title>
+
+    <link rel="stylesheet" href="./css/menu-2.css">
+
+<style>   
+div.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+    <h2>Chào bạn!!</h2>
+
+    <div class="absolute">Nếu bạn đang tìm kiếm một lộ trình học tập Thiết kế - Làm phim - Game - Hoạt hình 3D thì hãy tiếp tục hành trình cùng chúng tôi</div>
+    <style>
+    
+        h2 {
+            left: 50;
+            width: 400px;
+            height: 300px;           
+            font-size: 40px;
+}
+        div.absolute {
+  position: absolute;
+  top: 300px;
+  left: 50;
+  width: 400px;
+  height: 400px;
+  font-size: 30px
+}
+            body {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    margin: 50px;
+}  
+            body {
+                background-image: url('bg.png');
+            }
+    </style>
+    
+    <div class="fixed">
+    <div id="menu">
+        <ul>
+            <style>
+                ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #F8C800;
+}
+li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+li.dropdown {
+    display: inline-block;
+    width: 180px;
+}
+
+li a:hover,
+.dropdown:hover {
+    background: red;
+}
+
+li a,
+.dropdown-btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #F8C800;
+    width: 180px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}  
+
+    </style>
+            <li>
+                <a href="#"> Giới thiệu</a>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-btn"> Đào tạo - Tuyển sinh</a>
+                <div class="dropdown-content">
+                    <a href="#">Đào tạo</a>
+                    <a href="#">Tuyển sinh</a>
+                </div>
+            </li>
+            <li>
+                <a href="#"> Gallery</a>
+            </li>
+            <li>
+                <a href="#"> Tin tức - Sự kiện</a>
+            </li>
+            <li>
+                <a href="#"> Liên thông - Việc làm</a>
+            </li>
+            <li>
+                <a href="#">Liên hệ</a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

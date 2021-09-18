@@ -1,0 +1,254 @@
+#menu {
+  display: inline-block;
+  float: right;
+  height: 100px;
+}
+
+/* Sử dụng cho menu */
+
+#menu ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background: #f8c800;
+}
+
+#menu li {
+  float: left;
+  border-right: 1px solid white;
+}
+
+#menu li.dropdown {
+  display: inline-block;
+  width: 180px;
+}
+
+#menu li a:hover,
+.dropdown:hover {
+  background: red;
+}
+
+#menu li a,
+.dropdown-btn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #f8c800;
+  width: 180px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background: red;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body {
+  background: url(../images/head-bg.webp);
+  background-repeat: no-repeat;
+  padding: 20px 20px;
+}
+
+.logo {
+  float: left;
+}
+.content-hello {
+  float: left;
+  margin-top: 100px;
+}
+
+.info-button {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f8c800;
+  margin-top: 15px;
+  margin-left: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.info-button a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.content-gioi-thieu {
+  width: 70%;
+  background-color: white;
+  border-radius: 30px;
+  height: fit-content;
+  margin: auto;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.content-gioi-thieu h2 {
+  display: block;
+  color: #f8c800;
+  text-align: center;
+}
+
+.gioi-thieu-cot-trai {
+  float: left;
+  width: 50%;
+}
+
+.gioi-thieu-cot-phai {
+}
+
+.gioi-thieu-cot-trai ul {
+  list-style-type: '- ';
+}
+
+.content-dao-tao {
+  width: 70%;
+  background-color: white;
+  border-radius: 30px;
+  height: fit-content;
+  margin: auto;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.content-dao-tao h2 {
+  display: block;
+  color: #f8c800;
+  text-align: center;
+  margin: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+.content-tuyen-sinh {
+  width: 70%;
+  background-color: white;
+  border-radius: 30px;
+  height: fit-content;
+  margin: auto;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.content-tuyen-sinh h2 {
+  display: block;
+  color: #f8c800;
+  text-align: center;
+}
+
+.content-tuyen-sinh .column-container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content-tuyen-sinh .column {
+  width: 23%;
+  height: 100%;
+  float: left;
+  padding: 1%;
+}
+
+.content-tuyen-sinh .column h3 {
+  text-align: center;
+}
+
+.content-tuyen-sinh .column ul li {
+  list-style: none;
+}
+
+.content-tuyen-sinh .column ul {
+  padding-left: 0px;
+}
+
+.content-three-col {
+  min-width: 70%;
+  background-color: white;
+  border-radius: 30px;
+  height: fit-content;
+  margin: auto;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.content-three-col .column-container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content-three-col .column {
+  width: 31%;
+  height: 100%;
+  float: left;
+  padding: 1%;
+}
+
+.content-three-col h2 {
+  display: block;
+  color: #f8c800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.margin10 {
+  margin: 10px;
+}
+
+.content-three-col .column-container .subTitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: large;
+}
+
+.content-three-col .column-container .date {
+  text-align: right;
+}
+
+.content-three-col .column-container .image-container {
+  height: 250px;
+  overflow: hidden;
+}
+
+.border-content {
+  border-color: yellow;
+  border-width: medium;
+  border-style: solid;
+}
+
+.info-button:hover {
+  background-color: rgb(59, 59, 155);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+footer {
+  font-family: 'Oleo Script', cursive;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: larger;
+}
